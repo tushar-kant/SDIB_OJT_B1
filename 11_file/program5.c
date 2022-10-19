@@ -26,9 +26,6 @@ int main()
          fprintf(fp, "\n%4d\t%-s\t%4d\t%1c", s.roll, s.name, s.age, s.gender);
         if (ch == 'n' || ch == 'N')
             break;
-
-        
-
     }
     fclose(fp);
 }
